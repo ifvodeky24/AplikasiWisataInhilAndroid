@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".features.profil.TugasFungsiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="TUGAS POKOK DAN FUNGSI"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berdasarkan Peraturan Daerah Provinsi Riau Nomor 4 Tahun 2016, Tentang Penyusunan dan Susunan Perangkat Daerah Provinsi Riau, pada Bab II Pasal 3 disebutkan bahwa Dinas Pariwisata menyelenggarakan urusan Pemerintah di Bidang Pariwisata. \n \n Untuk melaksanakan tugas tersebut Dinas Pariwisata Indragiri Hilir menyelenggarakan Fungsi : \n 1. Penyusunan kebijaka teknis dibidang pariwisata;\n2. Penyelenggaraan urusan pemerintahan dan pelayanan umum dibidang pariwisata;\n3. Pembinaan dan pelaksanaan tugas dibidang pariwisata;\n4. Pelaksanaan pengembangan pariwisata, pembinaan karakter dan pekerti bangsa;\n 5. Pelaksanaan monitoring dan evaluasi pariwisata;\n 6. Pelaksanaan kebijakan promosi dan standarisasi pariwisata;\n7. Pelaksanaan rencana induk dan pengembangan pariwisata dan sumber daya manusia;\n 8. Pelayanan administratif. "
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Wisata</string>
+    <string name="app_version">Version</string>
+    <string name="version_unknown">Unknown</string>
+    <string-array name="strings_short">
+        <item>Proin Eleifend Libero</item>
+        <item>Placerat nec elit</item>
+        <item>Fringilla ornare finibus</item>
+        <item>Convallis nec mollis</item>
+        <item>Vestibulum turpis nec</item>
+        <item>Sed malesuada volutpat</item>
+        <item>Leo ut semper vulputate</item>
+        <item>Maecenas a lorem in</item>
+        <item>Tincidunt est eros</item>
+        <item>Amet est sollicitudin</item>
+    </string-array>
+    <string name="title_activity_peta_wisata">Map</string>
+    <string name="kabupaten_indragiri_hilir_dikenal">Kabupaten Indragiri Hilir dikenal dengan Bumi Sri Gemilang, Negeri Seribu Parit, memiliki 20 Kecamatan, 237 Desa dan Kelurahan dengan iklim Tropis jumlah penduduk lebih kurang 739.799 Jiwa, Indragiri Hilir memiliki berbagai potensi baik potensi Alam, Perkebunan, Pertanian, Perikanan, maupun potensi Wisata dan Budaya, sepanjang pesisir terdapat hamparan hutan Mangrove, aut dan Pantai sedangkan pesisir terdapat hamparan Hutan Mangrove, Laut dan Pantai sedangkan di darat terdapat Bukit, Air Terjun dan Satwa-satwa langka lainnya, bagaikan pepatah orang tua – tua Mengatakan Tidaklah Mementingkan Diri Sendiri Bila Untung Sama Dibagi Bulatkan Tekat Luruskan Hati Membangun Pariwisata di Negeri ini, mengembangkaan kawasan objek pariwisata merupakan tolak ukur membangun dan mengangkat serta menjaga kelestarian budaya daerah</string>
+    <string name="selamat_datang_di_indragiri_hilir_nnegeri_seribu_parit">Selamat Datang di Indragiri Hilir \nNegeri Seribu Parit</string>
+    <string name="adanya_pesona_tersendiri_dalam_menantang_keberanian_saudara_pengunjung_untuk_menuju_pariwisata_indragiri_hilir_berbagai_suguhan_keindahan_alam_yang_menantang_antara_lain_di_kecamatan_kemuning_air_terjun_86_air_terjun_tembulon_rusa_bukit_berbunga_dan_dipesisir_indragiri_hilir_terdapat_hamparan_pantai_pantai_solop_dan_lokasi_menongkah_kerang_yang_dikelilingi_oleh_hutan_mangroof_dan_tak_kalah_menarik_sebuah_danau_yang_merupakan_migrannya_burung_bangau_asal_australia_akan_menjadi_suguhan_saudara_bagi_para_pengunjung_di_kabupaten_indragiri_hilir">Adanya pesona tersendiri dalam menantang keberanian saudara pengunjung, untuk menuju pariwisata Indragiri Hilir, berbagai suguhan keindahan alam yang menantang, antara lain di Kecamatan Kemuning ( Air Terjun 86, Air Terjun Tembulon Rusa, Bukit Berbunga), dan dipesisir Indragiri Hilir terdapat Hamparan Pantai ( Pantai Solop, dan Lokasi menongkah kerang ) yang dikelilingi oleh hutan mangroof. Dan tak kalah menarik sebuah danau yang merupakan Migrannya Burung Bangau asal Australia akan menjadi Suguhan Saudara bagi para pengunjung di Kabupaten Indragiri Hilir.</string>
+    <string name="selamat_menikmati_perjalanan_saudara_di_kabupaten_indragiri_hilir_negeri_seribu_parit_semoga_perjalanan_saudara_akan_memberikan_kesan_uang_menarik_dan_dengan_adanya_panduan_wisata_ini_akan_membuat_kunjungan_wisata_saudara_lebih_menyenangkan_selamat_jalan_semoga_saudara_selamat_sampai_tujuan_amin">Selamat menikmati perjalanan Saudara di Kabupaten Indragiri Hilir Negeri Seribu Parit, semoga perjalanan Saudara akan memberikan kesan uang menarik, dan dengan adanya panduan wisata ini, akan membuat kunjungan wisata saudara lebih menyenangkan. Selamat Jalan Semoga Saudara Selamat Sampai Tujuan.. Amin.</string>
+    <string name="program_penunjang_urusan">
+        <ul>
+            <li> Perencanaan, Pengangguran dan Evaluasi Kinerja Perangkat Daerah</li>
+            \n<li> Administrasi Barang Milik Daerah pada Perangkat Daerah</li>
+            \n<li> Administrasi Umum Perangkat Daerah</li>
+            \n<li> Pengadaan Barang Milik Daerah Penunjang Urusan Pemerintah Daerah</li>
+            \n<li> Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah</li>
+            \n<li> Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah</li>
+        </ul>
+    </string>
+    <string name="program_peningkatan_daya">
+        <ul>
+            <li> Perencanaan, Pengangguran dan Evaluasi Kinerja Perangkat Daerah</li>
+            \n<li> Administrasi Barang Milik Daerah pada Perangkat Daerah</li>
+            \n<li> Administrasi Umum Perangkat Daerah</li>
+            \n<li> Pengadaan Barang Milik Daerah Penunjang Urusan Pemerintah Daerah</li>
+            \n<li> Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah</li>
+            \n<li> Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah</li>
+        </ul>
+    </string>
+    <string name="program_pemasaran_pariwisata">
+        <ul>
+            <li> Pemasaran Pariwisata Dalam dan Luar Negeri Daya Tarik, Destinasi dan Kawasan Strategis Pariwisata Kabupaten/Kota</li>
+        </ul>
+    </string>
+    <string name="program_pengembangan_sumber_daya">
+        <ul>
+            <li> Pelaksanaan Peningkatan Kapasitas Sumber Daya Manusia Pariwisata dan Ekonomi Kreatif Tingkat Dasar</li>
+        </ul>
+    </string>
+
+</resources>

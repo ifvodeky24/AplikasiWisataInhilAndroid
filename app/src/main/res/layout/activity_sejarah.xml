@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.profil.SejarahActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Periode sebelum kemerdekaan RI"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="1. Kerajaan Keritang"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerajaan ini berdiri sekitar awal abad ke VI yang berlokasi di wilayah Kecamatan Keritang. Kondisi Sosial dan budaya lebih banyak dipengaruhi oleh Hindu, yang terlihat pada arsitiktur istana yang terkenal dengan Putri Tujuh."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="2. Kerajaan Kemuning"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerajaan ini didirikan oleh raja Singapura yang ke V yang bergelar Raja Sampuatau Raja lskandarsyah Zulkarnaen yang lebih dikenal dengan nama Praweswara. Pada tahun 1231 telah diangkat seorang raja muda yang berge1ar Datok Setia Diraja. Letak Kerajaan Kemuning diperkirakan diesa Kemuning Tua dan Kemuning Muda sekarang. Adapun bukti-bukti peninggalan kerajaan ini dapat ditemukan pada salah serang keturunan yang berada di Desa tersebut berupa selembar bisluit cap stempel kerajaan, bender dan pedang kerajaan."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="3. Kerajan Batin Enam Suku"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pada tahun 1260 di Daerah Indragiri Hilir bagian Utara yakni tepatnya di Daerah Gaung Anak Serka, Batang Tuaka, Mandah dan Guntung telah dikuasai oleh raja-raja kecil bekas kerajaan Bintan, diantaranya terdapat 6 (enam) batin atau enam kepala suku yang terkenal dengan sebutan Batin Enam Suku, yakni : \n a. Suku Raja Asal di Daerah Gaung (Lahang sekarang). \n b. Suku Raja Rubiah di Daerah Gaung (Lahang sekarang). \n c. Suku Nek Gewang di Daerah Anak Serka \n d. Suku Raja Mafiat di Daerah Guntung. \n e. Suku Datok Kelambai di Daerah Mandah \n f. Suku Datok Miskin Di Daerah Batang Tuaka."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="4. Kerajaan Indragiri"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerajaan Indragiri diperkirakan berdiri pada tahun 1298 dengan Raja pertama bergelar Raja Merlang I yang berkedudukan di Malaka. Penggantinya adalah Raja Narasinga I dan Raja Merlang II, tetap berkedudukan di Malaka. Untuk urusan sehari-hari dilaksanakan oleh atuk Patih atau Perdana Mentri Pada tahun 1478 waktu raja Narasinga II bergelar Paduka Maulana Sri sultan Alauddin Iskandarsyah Johan Zirullah Fil Alam (Sultan Indragiri IV), beliau menetap di Ibukota Kerajaan yakni yang berlokasi di Pekan Tua sekarang.\n\n Beliau digantikan oleh Sultan Usulluddin Hasansyah dan selanjutnya Sultaan Ibrahim Pada tahun 1815 dibawah kekuasaan Sultan Ibrahim lbukota kerajaan dipindahkan ke Rengat. Pada masa kekuasaan Ibrahim ini mulailah campur tangan Belanda terhadap kerajaan dengan mengangkat Sultan Muda yang berkedudukan di Peranap dengan batas wilayah ke Hilir adalah di batas Japura. \n\n Selanjutnya pada masa kekuasaan Sultan Isa,maka berdatanganlah orang - orang Suku Banjar dan Suku Bugis didaerah ini. Pada tahun 1902 Raja wafat dengan meninggalkan seorang putra berumur 11 tahun bernama Raja Mahmud yang ditetapkan sebagai, pegganti Sultan. Selama Raja Mahmud belum dewasa pemerintahan kerajaan digantikan oleh Dewan Perwalian yang terdiri dari orang -orang besar kerajaan dengan asisten Residen Belanda sebagai pimpinannya. Kondisi ini berjalan sampai dengan tahun 1912 Raja Mahmud yang sudah mendapatkan pendidikan di Batavia dinobatkan menjadi Sultan. Didalam penobatan ini kepada Sultan oIeh pihak Belanda di sodorkan kotrak politik tidak sebagi mana lazimnya, yakni selain ditanda tangani oleh Sultan juga ditanda tangani oIeh orang-orang besar kerajaan. "
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="5. Masa Setelah Berdiri NKRI"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pada tanggal 13 September 1945 3am 10.00 didepan Kantor Gun Cho di Tembilahan dengan disaksikan oleh ribuan rakyat, Bendera Sang Merah Putih dikibarkan untuk Pertama kalinya secara resmi setelah Kemerdekaan Indonesia di Proklamirkan (ditandai dengan sebuah Tugu Peringatan). Setelah Penyerahan Kedaulatan Republik Indonesia (Desember 1949), Indragiri (Hutu dan Hilir) merupakan satu Kabupaten. Kabupaten Indragiri ini terdiri dari 3 Kawedanan, yaitu: \n a. Kawedanan Kuantan Sengingi, dengan lbukota Taluk Kuantan. \n b. Kawedanan lndragiri Hulu, dengan lbukota Rengat \n c. Kawedanan lndragiri Hilir, dengan lbukota Tembilahan \n Kawedanan lndragiri Hilir membawahi 6 wilayah, yaitu : \n a. Wilayah Tempuling/Tembilahan \n b. Wilayah Enok \n c. Wilayah Gaung Anak Serka \n d. Wilayah Mandah/Kateman \n e. Wilayah Kuala Indragiri \n f. Wilayah Reteh \n Perkembangan Tata Pemerintah selanjutnya, menjadikan Indragiri Hilir dipecah menjadi 2 (dua) Kawedanan masing-masing : \n a. Kawedanan lndragiri Hilir Utara meliputi Kecamatan : \n - Kecamatan Tempuling \n - Kecamatan Tembilahan \n - Kecamatan Gaung Anak Serka \n - Kecamatan Mandah \n - Kecamatan Kuala lndragiri, dengan ibu kotanya Tembilahan. \n b. Kawedanan indragiri Hilir Selatan meliputi Kecamatan : \n - Kecamatan Enok \n - Kecamatan Reteh, dengan ibu kotanya Enok \n Kepada Sultan Mahmud disodorkan Corte Verklaring . yang hanya ditandatangani oleh Sultan, dengan demikian Sultan tunduk sepenuhnya kepada Pemerintah Gubernement melalui Asisten Resident."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="6. Masa Penjajahan Belanda"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dengan adanya Tractat Van en Vrindschaap (Perjanjian Perdamaian dan persahabatan) tanggal 27 September 1938 antara Kerajaan Indragiri dengan Zelfbestuur. Berdasarkan ketentuan tersebut di wilayah Indragiri Hilir sekarang ditempatkan seorang Controlloeur yang membawahi 6 (enam) Daerah ke Amiran, yaitu : \n a. Amir Tembilahan di Tembilahan \n b. Amir Batang Tuaka di Sungai Salak. c. Amir Tempuling di Sungai Salak. \n d. Amir Mandah dan Gaung di Khairiah Mandah \n e. Amir Enok di Enok, dan \n f. Amir Reteh di Kotabaru \n Controlloeur memegang wewenang semua jabatan bahkan juga menjadi Hakim Pengadilan di wilayah ini, sehingga dengan masuknya bala tentara Jepang 1942."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="7. Masa Pendudukan Jepang Bala Tentara Jepang"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="memasuki Daerah lndragin Hilir pada tanggal 31 Maret 1942 melalui Singapura terus ke Rengat. Pada tanggat 2 April 1942 Jepang menerima penyerahan tanpa syarat dari pihak Belanda. Pada waktu itu dibawah Controlleur K. Ehling dan menawan Komisaris Polisi Belanda. Sebelum tentara Jepang mendarat untuk pertama kalinya di Daerah ini dikumandangkan lagu Indonesia Raya. Pada zaman pendudukan Jepang ini lndragiri Hilir dikepalai oleh seorang Gun Cho yang berkedudukan di Tembilahan dengan membawahi 5 (lima) Ku Cho, yakni : \n a. Ku Cho Tembilahan dan Tempuling di Tembilahan. \n b. Ku Cho Sungai Luar. \n Ku Cho Enok. \n c. Ku Cho Reteh. \n d. Ku Cho Mandah. \n Pemerintah Jepang di indragiri Hilir sampai bulan Oktober 1945 selama + 3,5 tahun."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="8. Masa Pemekaran Kabupaten Indragiri Hilir"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melihat perkembangan Daerah dan potensi yang memungkinkan untuk dapat dikembangkan dimasa mendatang kawedanan Indragiri Hilir Utara dan Selatan memenuh persyaratan untuk dimekarkan menjadi Kabupaten yang berdiri sendiri, sehubungan dengan halitu masyarakat. lndragiri Hilir mengajukan permohonan kepada Menteri Dalam Negeri melalui Gubernur Propinsi Riau, agar Daerah lndragiri Hilir di mekarkan menjadi Kabupaten yang berdiri sendiri (otonom) \n\n Setelah melalui penelitian, pemekaran tersebut dimulai dengan dikeluarkan Surat Keputusan Gubernur Kepala Daerah Tingkat I Riau tanggal 27 April 1965 Nomor: 052/5/1965, tentang penetapan Kawedanan lndragiri Hilir Utara dan Selatan sebagai “Daerah Persiapan Kabupaten lndragiri Hilir”, yang diresmikan pada tanggal 6 Mei 1965 dan menunjukkan SATAR HAKIM sebagai Pejabat Sementara Bupati lndragiri Hilir. Dengan dikeluarkannya Undang-undang No. tahun 1965 tanggal 14 Juni 1965, (Lembaran Negara Nomor 49 Tahun 1965), maka Daerah Persiapan Kabupaten lndragiri Hilir resmi dimekarkan menjadi Kabupaten lndragiri Hilir yang pelaksanaannya terhitung tanggal 20 November 1965. \n\n Selanjutnya dengan Surat Keputusan Menteri Dalam Negeri tanggal 24 Oktober 1967 Nomor Pemda: 7/7/22-240 ditetapkan Drs. BAHADRUDDIN YUSUF selaku Bupati Kepala Daerah Tingkat II Indragiri Hilir berdasarkan hasil pemilihan Dewan Perwakilan Rakyat Daerah Gotong Royong (DPRDGR) yang dibentuk berdasarkan Surat Keputusan Gubernur Kepala
+Daerah Tingkat l Riau tanggal 8 Oktober 1966 Nomor: Kpts. 167/X/1967 dalam suatu Sidang Pleno Khusus DPRGR. \n\n Dalam DPRGR dalam bidang Sidang Pleno DPRCR tanggal 17-18 Juli 1967, telah ditetapkan Hari Jadi Kabupaten Indragiri Hilir yaitu pada tanggal 14 Juli 1965 sesuai dengan tanggal ditanda tanganinya Undang-undang Nomor 6 Tahun 1965 tentang Pembentukan Kabupaten lndragiri Hilir Oleh Presiden Republik Indonesia. Sejak tanggal 27 Maret 1979 dan bertepatan pula dengan dimulainya Pelita III, Jabatan Bupati Kepala Daerah Tingkat ll lndragiri Hilir di emban oleh Drs. BAKIR ALlE untuk masa jabatan 1979-1984 dan dilantik oleh Gubernur kepala Daerah tingkat l Riau, R. SOEBRANTAS SISWANTO atas nama Menteri Dalam Negeri pada tanggal 27 Maret 1979, kemudian untuk masa Bhakti 1984-1989. BAKIR ALlE terpilih kembali sebagai Bupati Kepala Daerah tingkat ll lndragirl Hilir berdasarkan Surat Keputusan Menteri Dalam Negeri Nomor: 131.24-478 tanggal 16 Juli 1984 dan dilantik oleh Gubernur Riau, H. IMAM MUNANDAR atas nama Menteri Dalam Negeri pada tanggal 28 Juli 1984. "
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

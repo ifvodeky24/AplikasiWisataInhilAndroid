@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.profil.TentangKabupatenIndragiriHilirActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="@string/selamat_datang_di_indragiri_hilir_nnegeri_seribu_parit"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kabupaten_indragiri_hilir_dikenal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="12dp"
+            android:text="@string/adanya_pesona_tersendiri_dalam_menantang_keberanian_saudara_pengunjung_untuk_menuju_pariwisata_indragiri_hilir_berbagai_suguhan_keindahan_alam_yang_menantang_antara_lain_di_kecamatan_kemuning_air_terjun_86_air_terjun_tembulon_rusa_bukit_berbunga_dan_dipesisir_indragiri_hilir_terdapat_hamparan_pantai_pantai_solop_dan_lokasi_menongkah_kerang_yang_dikelilingi_oleh_hutan_mangroof_dan_tak_kalah_menarik_sebuah_danau_yang_merupakan_migrannya_burung_bangau_asal_australia_akan_menjadi_suguhan_saudara_bagi_para_pengunjung_di_kabupaten_indragiri_hilir" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="12dp"
+            android:text="@string/adanya_pesona_tersendiri_dalam_menantang_keberanian_saudara_pengunjung_untuk_menuju_pariwisata_indragiri_hilir_berbagai_suguhan_keindahan_alam_yang_menantang_antara_lain_di_kecamatan_kemuning_air_terjun_86_air_terjun_tembulon_rusa_bukit_berbunga_dan_dipesisir_indragiri_hilir_terdapat_hamparan_pantai_pantai_solop_dan_lokasi_menongkah_kerang_yang_dikelilingi_oleh_hutan_mangroof_dan_tak_kalah_menarik_sebuah_danau_yang_merupakan_migrannya_burung_bangau_asal_australia_akan_menjadi_suguhan_saudara_bagi_para_pengunjung_di_kabupaten_indragiri_hilir" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:text="@string/selamat_menikmati_perjalanan_saudara_di_kabupaten_indragiri_hilir_negeri_seribu_parit_semoga_perjalanan_saudara_akan_memberikan_kesan_uang_menarik_dan_dengan_adanya_panduan_wisata_ini_akan_membuat_kunjungan_wisata_saudara_lebih_menyenangkan_selamat_jalan_semoga_saudara_selamat_sampai_tujuan_amin" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

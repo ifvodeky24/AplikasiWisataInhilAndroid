@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".features.profil.TentangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="DINAS PARIWISATA PROVINSI RIAU"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kabupaten Indragiri Hilir dibentuk dengan Undang-undang Nomor 6 Tahun 1965 tentang Pembentukan Kabupaten Daerah Tingkat II Indragiri Hilir. Badan Kepegawaian Daerah Kabupaten Indragiri Hilir merupakan salah satu Satuan Kerja Perangkat Daerah (SKPD) yang dibentuk pada Tahun 2004 berdasarkan Peraturan Daerah kabupaten Indragiri Hilir Nomor 24 Tahun 2004 mengalami beberapa perubahan, terakhir dengan Peraturan Daerah Kabupaten Indragiri Hilir Nomor 13 Tahun 2010 tentang Perubahan Atas Peraturan Daerah Kabupaten Indragiri Hilir Nomor 31 Tahun 2008 tentang Organisasi dan Tata Kerja Lembaga Tekhnis Daerah. Badan Kepegawaian Daerah Kabupaten Indragiri Hilir mempunyai Tugas Pokok melaksanakan penyusunan dan pelaksanaan kebijakan daerah di bidang Kepegawaian, dengan Tugas Pokok dan Fungsi Jabatan Struktural yang ditetapkan Peraturan Bupati Indragiri Hilir Nomor 25 Tahun 2010. \n \n Susunan Organisasi dan Tata Kerja Badan Kepegawaian Daerah Kabupaten Indragiri Hilir sebagaimana ditetapkan dalam Peraturan Daerah Nomor 31 Tahun 2008 yang telah diubah dengan Peraturan Daerah Kabupaten Indragiri Hilir Nomor 13 Tahun 2010 terdiri dari Kepala Badan, Sekretaris Badan, Kepala Bidang Administrasi Kepegawaian dan Pembinaan Pegawai, Kepala Bidang Mutasi dan Pengembangan Karir Pegawai, Kepala Bidang Formasi dan Pensiun Pegawai, Kepala Bidang Pendidikan dan Pelatihan, serta Kelompok Jabatan Fungsional. \n \n Tujuan Badan Kepegawaian Daerah Kabupaten Indragiri Hilir sebagaimana Rencana strategi Badan Kepegawaian Daerah Kabupaten Indragiri Hilir Tahun 2014-2018 adalah : \n 1. Tercapainya Peningkatan Sumber Daya manusia Aparatur yang handal dan berkualitas sesuai bidang tugasnya. \n 2. Tercapainya Peningkatan Kinerja PNS. \n 3. Tercapainya Peningkatan Kualitas Pelayanan Administrasi Kepegawaian. \n 4. Tercapainya Keakuratan data Formasi dan Bezetting yang Riil. \n Sasaran yang ingin dicapai Badan Kepegawaian Daerah Kabupaten Indragiri Hilir adalah : \n 1. Meningkatkan Jumlah Aparatur yang Profesional di Bidang tugasnya. \n 2. Meningkatkan Kompetensi dan Relevansi SDM pada SKPD. \n 3. Meningkatkan Disiplin Pegawai. \n 4. Terwujudnya Penerapan Reward dan Punishment secara Rill dan Akurat. \n 5. Meningkatkan Pelayanan Manajemen Administrasi Kepegawaian. \n 6. Berkurangnya Keluhan PNS terhadap Kebijakan di bidang Kepegawaian dan Meningkatnya pada Pelayanan BKD. \n 7. Meningkatkan Ketersediaan Sarana dan Prasarana Kerja. \n 8. Meningkatkan Penyaji Data dan Informasi Kepegawaian yang Akurat, Valid dan terkini. \9 Tersedianya Data Formasi dan Bezetting yang akurat disetiap SKPD. \n 10. Terpenuhinya Perencana Alokasi tambah Formasi PNS sesuai kebutuhan Organisasi."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
