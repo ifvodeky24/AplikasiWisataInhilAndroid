@@ -30,6 +30,7 @@ class DestinasiPresenter(
 
                 override fun onNext(t: DestinasiResponse) {
                     mView.displayDestinasi(t.destinasi)
+                    Log.d("dsdsdsdsds", "ini ${t.destinasi.size}")
                 }
 
                 override fun onError(e: Throwable) {

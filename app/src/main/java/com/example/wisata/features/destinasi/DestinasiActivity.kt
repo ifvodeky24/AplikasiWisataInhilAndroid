@@ -80,11 +80,18 @@ class DestinasiActivity : AppCompatActivity(), DestinasiContract.View {
     }
 
     override fun displayDestinasi(destinasi: List<Destinasi>) {
-        destinasiLists.clear()
-        destinasiLists.addAll(destinasi)
-        val layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-        rvDestinasi.layoutManager =layoutManager
-        rvDestinasi.setHasFixedSize(true)
-        rvDestinasi.adapter = DestinasiAdapter(destinasiLists, this)
+        if (destinasi.isNotEmpty()){
+            rvDestinasi.visibility = View.VISIBLE
+            ll_empty_list.visibility = View.GONE
+            destinasiLists.clear()
+            destinasiLists.addAll(destinasi)
+            val layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+            rvDestinasi.layoutManager =layoutManager
+            rvDestinasi.setHasFixedSize(true)
+            rvDestinasi.adapter = DestinasiAdapter(destinasiLists, this)
+        } else {
+            rvDestinasi.visibility = View.GONE
+            ll_empty_list.visibility = View.VISIBLE
+        }
     }
 }

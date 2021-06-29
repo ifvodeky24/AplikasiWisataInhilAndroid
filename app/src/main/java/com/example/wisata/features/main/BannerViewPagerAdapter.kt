@@ -11,8 +11,9 @@ import com.example.wisata.R
 
 class BannerViewPagerAdapter(private val context: Context) : PagerAdapter() {
     private var layoutInflater: LayoutInflater? = null
-    private val images = arrayOf(R.drawable.img_1, R.drawable.img_2
-        , R.drawable.img_3 , R.drawable.img_4 ,  R.drawable.img_5)
+    private val images = arrayOf(R.drawable.slide_1, R.drawable.slide_2
+        , R.drawable.slide_3, R.drawable.slide_4,  R.drawable.slide_5
+        ,  R.drawable.slide_6,  R.drawable.slide_7)
 
     override fun getCount(): Int {
         return images.size

@@ -43,8 +43,8 @@ class KulinerAdapter(private val kulinerList: List<Kuliner>, val context: Contex
         fun bind(kuliner: Kuliner) {
 
             itemView.tv_judul_kuliner.text = kuliner.judul
-            itemView.tv_tanggal_kuliner.text = kuliner.createdAt
-            itemView.tv_isi_kuliner.text = kuliner.isi
+//            itemView.tv_tanggal_kuliner.text = kuliner.createdAt
+//            itemView.tv_isi_kuliner.text = kuliner.isi
 
             Glide.with(itemView.context)
                 .load(ServerConfig.KULINER_PATH+kuliner.gambar)

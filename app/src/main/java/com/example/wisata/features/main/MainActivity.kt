@@ -25,6 +25,7 @@ import com.example.wisata.features.berita.BeritaActivity
 import com.example.wisata.features.event.EventActivity
 import com.example.wisata.features.galery.GaleryActivity
 import com.example.wisata.features.jenisdestinasi.JenisDestinasiActivity
+import com.example.wisata.features.kontak.KontakActivity
 import com.example.wisata.features.kuliner.KulinerActivity
 import com.example.wisata.features.petawisata.PetaWisataActivity
 import com.example.wisata.features.profil.ProfilActivity
@@ -113,7 +114,8 @@ class MainActivity : AppCompatActivity(), MainBeritaContract.View {
         }
 
         fb_kontak.setOnClickListener {
-            showDialogContact()
+            val intent = Intent(this, KontakActivity::class.java)
+            startActivity(intent)
         }
 
         list.addAll(ImagesData.listData)
@@ -251,6 +253,8 @@ class MainActivity : AppCompatActivity(), MainBeritaContract.View {
                     2 -> vp_galeri.currentItem = 3
                     3 -> vp_galeri.currentItem = 4
                     4 -> vp_galeri.currentItem = 5
+                    5 -> vp_galeri.currentItem = 6
+                    6 -> vp_galeri.currentItem = 7
                     else -> vp_galeri.currentItem = 0
                 }
             }

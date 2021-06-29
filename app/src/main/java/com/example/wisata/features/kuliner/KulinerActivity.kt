@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wisata.R
 import com.example.wisata.adapter.KulinerAdapter
@@ -59,7 +60,7 @@ class KulinerActivity : AppCompatActivity(), MainKulinerContract.View {
     override fun displayKuliner(kuliner: List<Kuliner>) {
         eventLists.clear()
         eventLists.addAll(kuliner)
-        val layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+        val layoutManager = GridLayoutManager(this, 2)
         rvEvent.layoutManager =layoutManager
         rvEvent.setHasFixedSize(true)
         rvEvent.adapter = KulinerAdapter(kuliner, this);

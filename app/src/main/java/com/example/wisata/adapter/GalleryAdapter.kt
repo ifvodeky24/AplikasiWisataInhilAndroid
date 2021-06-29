@@ -36,8 +36,8 @@ class GalleryAdapter(private val eventList: List<Gallery>, val context: Context?
     inner class GalleryViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(event: Gallery) {
 
-            itemView.date.text = event.createdAt
-            itemView.title.text = event.judul
+//            itemView.date.text = event.createdAt
+//            itemView.title.text = event.judul
 
             Glide.with(itemView.context)
                 .load(ServerConfig.GALLERY_PATH+event.gambar)
