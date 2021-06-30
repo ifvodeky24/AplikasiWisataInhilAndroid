@@ -13,6 +13,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.example.wisata.R
 import com.example.wisata.config.ServerConfig
 import com.example.wisata.features.destinasi.DestinasiActivity
+import com.example.wisata.features.galery.DetailGalleryActivity
 import com.example.wisata.models.Event
 import com.example.wisata.models.Gallery
 import com.example.wisata.models.JenisDestinasi
@@ -37,7 +38,7 @@ class GalleryAdapter(private val eventList: List<Gallery>, val context: Context?
         fun bind(event: Gallery) {
 
 //            itemView.date.text = event.createdAt
-//            itemView.title.text = event.judul
+            itemView.title.text = event.judul
 
             Glide.with(itemView.context)
                 .load(ServerConfig.GALLERY_PATH+event.gambar)
@@ -49,13 +50,11 @@ class GalleryAdapter(private val eventList: List<Gallery>, val context: Context?
             }
              */
 
-            /*
             itemView.setOnClickListener {
-                val jenisdestinasi = Intent(context, DestinasiActivity::class.java)
-                jenisdestinasi.putExtra(DestinasiActivity.EXTRA_JENIS_DESTINASI, jenisdestinasi)
-                context?.startActivity(jenisdestinasi)
+                val intent = Intent(context, DetailGalleryActivity::class.java)
+                intent.putExtra(DetailGalleryActivity.EXTRA_GALERRY, event.gambar)
+                context?.startActivity(intent)
             }
-            */
         }
     }
 

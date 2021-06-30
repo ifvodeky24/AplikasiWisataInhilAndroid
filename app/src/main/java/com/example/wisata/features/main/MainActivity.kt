@@ -236,12 +236,37 @@ class MainActivity : AppCompatActivity(), MainBeritaContract.View {
     }
 
     override fun displayBerita(berita: List<Berita>) {
+
+        val data = arrayListOf(
+            Berita(
+                berita[0].id,
+                berita[0].judul,
+                berita[0].isi,
+                berita[0].gambar,
+                berita[0].createdAt
+            ),
+            Berita(
+                berita[1].id,
+                berita[1].judul,
+                berita[1].isi,
+                berita[1].gambar,
+                berita[1].createdAt
+            ),
+            Berita(
+                berita[3].id,
+                berita[3].judul,
+                berita[3].isi,
+                berita[3].gambar,
+                berita[3].createdAt
+            )
+        )
+
         beritaList.clear()
-        beritaList.addAll(berita)
+        beritaList.addAll(data)
         val layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rvBerita.layoutManager = layoutManager
         rvBerita.setHasFixedSize(true)
-        rvBerita.adapter = BeritaAdapter(berita, this)
+        rvBerita.adapter = BeritaAdapter(data, this)
     }
 
     inner class MyTimerTask : TimerTask() {

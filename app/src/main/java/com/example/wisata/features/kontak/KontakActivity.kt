@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.core.app.ActivityCompat
 import com.example.wisata.R
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -21,7 +22,7 @@ class KontakActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kontak)
-        title = "Kontak"
+        initToolbar()
 
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
@@ -67,6 +68,18 @@ class KontakActivity : AppCompatActivity(), OnMapReadyCallback {
             latLng,
             "Kantor"
         )
+    }
+
+    private fun initToolbar() {
+        supportActionBar?.title = "Peta Wisata";
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home){
+            finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun addMarker(latLng: LatLng, kantor: String) {

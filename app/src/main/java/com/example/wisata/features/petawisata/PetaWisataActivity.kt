@@ -21,6 +21,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.gson.Gson
 import com.rahmat.app.footballclub.utils.AppSchedulerProvider
 import org.jetbrains.anko.startActivity
 
@@ -98,15 +99,28 @@ class PetaWisataActivity : AppCompatActivity(), OnMapReadyCallback, DestinasiMap
     }
 
     override fun displayDestinasi(destinasi: List<Destinasi>) {
-        print("kucing $destinasi")
+        print("kucing ${Gson().toJson(destinasi)}")
         destinasiLists.clear()
         destinasiLists.addAll(destinasi)
-        for (dataLokasi in destinasiLists) {
-            val title: String = dataLokasi.nama.toString()
-            val lat: Double = dataLokasi.lat!!.toDouble()
-            val lng: Double = dataLokasi.lng!!.toDouble()
-            val latLng = LatLng(lat, lng)
-            addMarker(dataLokasi, latLng, title)
+
+
+        for (dataLokasi in destinasiLists.indices) {
+            if (destinasiLists[dataLokasi].lat != null && destinasiLists[dataLokasi].lng != null){
+
+                val title: String = destinasiLists[dataLokasi].nama.toString()
+                val lat: Double = destinasiLists[dataLokasi].lat!!.toDouble()
+                val lng: Double = destinasiLists[dataLokasi].lng!!.toDouble()
+                val latLng = LatLng(lat, lng)
+                addMarker(destinasiLists[dataLokasi], latLng, title)
+            }
+//            print("kucing ${Gson().toJson(destinasiLists[dataLokasi].lat)}")
+
+        }
+
+        var data: List<Destinasi> = listOf()
+        mMap?.setOnInfoWindowClickListener { marker ->
+            data = destinasiLists.filter { a -> a.nama == marker.title }
+            startActivity<DetailDestinasiActivity>(DetailDestinasiActivity.EXTRA_DESTINASI to data[0])
         }
     }
 
@@ -114,14 +128,5 @@ class PetaWisataActivity : AppCompatActivity(), OnMapReadyCallback, DestinasiMap
         markerOptions.title(title)
         markerOptions.position(latLng)
         mMap?.addMarker(markerOptions)
-
-        mMap?.setOnInfoWindowClickListener { marker ->
-//            Toast.makeText(
-//                    applicationContext,
-//                    "Click" + marker.title,
-//                    Toast.LENGTH_SHORT
-//            ).show()
-            startActivity<DetailDestinasiActivity>(DetailDestinasiActivity.EXTRA_DESTINASI to dataLokasi)
-        }
     }
 }

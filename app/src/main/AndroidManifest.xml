@@ -25,6 +25,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
+        <activity android:name=".features.galery.DetailGalleryActivity"></activity>
         <activity
             android:name=".features.main.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -72,8 +73,7 @@
         <activity android:name=".features.destinasi.DestinasiActivity" />
         <activity
             android:name=".features.main.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
