@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.wisata.R
+import com.example.wisata.features.galery.revamp.DetailGalleriesActivity
 import com.example.wisata.models.Galleries
 
 class GalleriesAdapter (private val galleriesList: ArrayList<Galleries>, val context: Context?) :
@@ -28,9 +29,9 @@ class GalleriesAdapter (private val galleriesList: ArrayList<Galleries>, val con
 
         holder.itemView.setOnClickListener {
 //            Toast.makeText(context, "heiii ${events.name}", Toast.LENGTH_SHORT).show()
-//            val intent = Intent(context, DetailEventsActivity::class.java)
-//            intent.putExtra(DetailEventsActivity.EXTRA_EVENT, events)
-//            context?.startActivity(intent)
+            val intent = Intent(context, DetailGalleriesActivity::class.java)
+            intent.putExtra(DetailGalleriesActivity.EXTRA_GALERRY, galleries)
+            context?.startActivity(intent)
         }
     }
 
