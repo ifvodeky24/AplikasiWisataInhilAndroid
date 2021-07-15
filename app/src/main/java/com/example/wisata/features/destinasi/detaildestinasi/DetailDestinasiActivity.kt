@@ -76,7 +76,7 @@ class DetailDestinasiActivity : AppCompatActivity() {
                 Log.e("lng_tes", longitude)
                 fab_maps_destinasi.setOnClickListener {
                     val mapIntent = Uri.parse(
-                        "http://maps.google.com/maps?saddr=$latitude_know,$longitude_know&daddr=$latitude,$longitude"
+                        "http://maps.google.com/maps?saddr=${latitude_know.toString()},${longitude_know.toString()}&daddr=$latitude,$longitude"
                     ).let { location ->
                         Intent(Intent.ACTION_VIEW, location);
                     }

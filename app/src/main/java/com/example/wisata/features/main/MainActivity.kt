@@ -23,7 +23,9 @@ import com.example.wisata.adapter.ImagesAdapter
 import com.example.wisata.data.ImagesData
 import com.example.wisata.features.berita.BeritaActivity
 import com.example.wisata.features.event.EventActivity
+import com.example.wisata.features.event.revamp.JenisEventActivity
 import com.example.wisata.features.galery.GaleryActivity
+import com.example.wisata.features.galery.revamp.JenisGalleryActivity
 import com.example.wisata.features.jenisdestinasi.JenisDestinasiActivity
 import com.example.wisata.features.kontak.KontakActivity
 import com.example.wisata.features.kuliner.KulinerActivity
@@ -79,7 +81,7 @@ class MainActivity : AppCompatActivity(), MainBeritaContract.View {
 
     private fun initComponent() {
         fb_event.setOnClickListener {
-            val intent = Intent(this, EventActivity::class.java)
+            val intent = Intent(this, JenisEventActivity::class.java)
             startActivity(intent)
         }
 
@@ -99,7 +101,7 @@ class MainActivity : AppCompatActivity(), MainBeritaContract.View {
         }
 
         fb_gallery.setOnClickListener {
-            val intent = Intent(this, GaleryActivity::class.java)
+            val intent = Intent(this, JenisGalleryActivity::class.java)
             startActivity(intent)
         }
 

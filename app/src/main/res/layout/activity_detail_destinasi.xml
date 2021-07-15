@@ -272,18 +272,44 @@
 
     </androidx.core.widget.NestedScrollView>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/fab_maps_destinasi"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/spacing_mlarge"
-        android:clickable="true"
-        android:tint="@android:color/white"
-        app:backgroundTint="@color/light_green_600"
-        app:fabSize="normal"
+        android:layout_weight="1"
         app:layout_anchor="@id/app_bar_layout"
         app:layout_anchorGravity="bottom|right|end"
-        app:srcCompat="@drawable/ic_map_black_24dp"
-        tools:ignore="VectorDrawableCompat" />
+        android:gravity="end"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            app:cardCornerRadius="30dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_attraction"
+                android:layout_width="38dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_google_maps" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab_maps_destinasi"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="@dimen/spacing_mlarge"-->
+<!--        android:clickable="true"-->
+<!--        android:tint="@android:color/white"-->
+<!--        app:backgroundTint="@color/light_green_600"-->
+<!--        app:fabSize="normal"-->
+<!--        app:layout_anchor="@id/app_bar_layout"-->
+<!--        app:layout_anchorGravity="bottom|right|end"-->
+<!--        app:srcCompat="@drawable/ic_map_black_24dp"-->
+<!--        tools:ignore="VectorDrawableCompat" />-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
