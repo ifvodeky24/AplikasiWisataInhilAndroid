@@ -32,7 +32,7 @@ class EventsAdapter (private val eventsList: ArrayList<Events>, val context: Con
         holder.tvIsi.text = events.description
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(context, "heiii ${events.name}", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(context, "heiii ${events.name}", Toast.LENGTH_SHORT).show()
             val intent = Intent(context, DetailEventsActivity::class.java)
             intent.putExtra(DetailEventsActivity.EXTRA_EVENT, events)
             context?.startActivity(intent)

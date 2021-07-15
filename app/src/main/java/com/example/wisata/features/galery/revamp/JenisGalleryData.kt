@@ -10,8 +10,7 @@ object JenisGalleryData {
         "3",
         "4",
         "5",
-        "6",
-        "7"
+        "6"
     )
 
     private val jenisGallery = arrayOf(
@@ -19,7 +18,6 @@ object JenisGalleryData {
         "Gema Muharram",
         "Ekowisata Solop",
         "Menongkah",
-        "Pantai Solop",
         "Sampan Leper",
         "Sampan Selodang"
     )
@@ -29,7 +27,6 @@ object JenisGalleryData {
         R.drawable.muharram_1,
         R.drawable.solop_1,
         R.drawable.manongkah_1,
-        R.drawable.solop_1,
         R.drawable.leper_1,
         R.drawable.selodang_1
     )

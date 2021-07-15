@@ -32,7 +32,7 @@ class JenisEventAdapter(val jenisEventList: ArrayList<JenisEvent>, val context: 
         holder.tvName.text = jenisEvent.jenisEvent
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(context, "heiii ${jenisEvent.jenisEvent}", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(context, "heiii ${jenisEvent.jenisEvent}", Toast.LENGTH_SHORT).show()
             val intent = Intent(context, EventsActivity::class.java)
             intent.putExtra(EXTRA_ID, jenisEvent.id)
             context?.startActivity(intent)

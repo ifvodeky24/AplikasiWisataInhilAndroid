@@ -1,6 +1,7 @@
 package com.example.wisata.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +12,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.wisata.R
+import com.example.wisata.features.event.revamp.EventsActivity
+import com.example.wisata.features.galery.revamp.GalleriesActivity
 import com.example.wisata.models.JenisGallery
 
 class JenisGalleryAdapter(private val jenisGalleryList: List<JenisGallery>, val context: Context?) :
@@ -29,7 +32,10 @@ class JenisGalleryAdapter(private val jenisGalleryList: List<JenisGallery>, val 
         holder.tvName.text = jenisGallery.jenisGallery
 
         holder.itemView.setOnClickListener {
-            Toast.makeText(context, "heiii ${jenisGallery.jenisGallery}", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(context, "heiii ${jenisGallery.jenisGallery}", Toast.LENGTH_SHORT).show()
+            val intent = Intent(context, GalleriesActivity::class.java)
+            intent.putExtra(GalleriesActivity.EXTRA_ID, jenisGallery.id)
+            context?.startActivity(intent)
         }
     }
 
